@@ -25,6 +25,7 @@ int main() {
   });
   printf("Press Ctrl-C or close console window to stop\n");
   worker.join();
+  airbag::stop_request.processed();
   return 0;
 }
 ```
