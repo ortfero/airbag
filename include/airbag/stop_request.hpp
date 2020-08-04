@@ -40,7 +40,7 @@
 #endif
 
 #include <minwindef.h>
-#include <wincon.h>
+#include <consoleapi.h>
 #include <synchapi.h>
 
 #else
