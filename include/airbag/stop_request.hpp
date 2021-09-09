@@ -96,7 +96,7 @@ namespace airbag {
     static BOOL WINAPI handler(DWORD) {
       signaled_ = true;
       while(!processed_)
-        Sleep(500);
+        Sleep(100);
       return TRUE;
     }
 
