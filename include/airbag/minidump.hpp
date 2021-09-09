@@ -43,7 +43,7 @@
 #endif
 #endif
 
-#include <windef.h>
+#include <minwindef.h>
 #include <libloaderapi.h>
 #include <errhandlingapi.h>
 #include <sysinfoapi.h>
@@ -51,7 +51,6 @@
 #include <handleapi.h>
 #include <processthreadsapi.h>
 #include <timezoneapi.h>
-#include <verrsrc.h>
 #include <DbgHelp.h>
 
 #pragma comment(lib, "Dbghelp.lib")
